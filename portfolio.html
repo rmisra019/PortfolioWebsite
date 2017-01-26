@@ -1,103 +1,284 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <style>
-   .parallax { 
-    /* The image used */
-    background-image: url(images/cimage1.jpg);
-    /* Set a specific height */
-    height: 500px; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 90px;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-}
-   .parallax2 { 
-    /* The image used */
-    background-image: url(images/cimage2.png);
-    /* Set a specific height */
-     height: 500px; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 90px;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-}
-.parallax3 { 
-    /* The image used */
-    background-image: url(images/cimage3.jpg);
-    /* Set a specific height */
-     height: 500px; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 90px;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
-    margin: 5%;
-    font-weight: bold;
-    color: #000000;
-}
-</style>
-<link rel="stylesheet" type "text/css" href="style.css">
-<title>Portfolio project</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css"></script>
-</head>
-
-
-<body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-          aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-        <a class="navbar-brand" href="index.html">Portfolio Project</a>
+   <head>
+      <link rel="stylesheet" type "text/css" href="css/style.css">
+      <title>Portfolio project</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css"></script>
+      <style>
+         .parallax { 
+         /* The image used */
+         background-image: url(images/cimage1.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax2 { 
+         /* The image used */
+         background-image: url(images/cimage2.png);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax3 { 
+         /* The image used */
+         background-image: url(images/cimage3.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax4 { 
+         /* The image used */
+         background-image: url(images/cimage4.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax5 { 
+         /* The image used */
+         background-image: url(images/cimage5.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax6 { 
+         /* The image used */
+         background-image: url(images/cimage6.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax7 { 
+         /* The image used */
+         background-image: url(images/cimage7.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax8 { 
+         /* The image used */
+         background-image: url(images/cimage8.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax9 { 
+         /* The image used */
+         background-image: url(images/cimage9.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax10 { 
+         /* The image used */
+         background-image: url(images/cimage10.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax11 { 
+         /* The image used */
+         background-image: url(images/cimage11.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+         .parallax12 { 
+         /* The image used */
+         background-image: url(images/cimage12.jpg);
+         /* Set a specific height */
+         height: 500px; 
+         /* Create the parallax scrolling effect */
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         margin: 90px;
+         opacity: 0.6;
+         filter: alpha(opacity=60); /* For IE8 and earlier */
+         margin: 5%;
+         font-weight: bold;
+         color: #000000;
+         }
+      </style>
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse">
+         <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               </button>
+               <a class="navbar-brand" href="index.html">Portfolio Project</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+               <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                  <li><a href="bio.html">Bio</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                  <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                  <li><a href="future.html">Future Products</a></li>
+               </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+         </div>
+         <!-- /.container-fluid -->
+      </nav>
+      <div class="parallax" style="text-align: center;">
+         <h1>Legend of Zelda Link Between Worlds</h1>
+         <h2>Scroll down to look through our past projects</h2>
       </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
-          <li><a href="bio.html">Bio</a></li>
-          <li><a href="contact.html">Contact</a></li>
-           <li class="active"><a href="portfolio.html">Portfolio</a></li>
-        </ul>
+      <div class="parallax2" style="text-align: center;">
+         <h1>Super Mario Bros.</h1>
       </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
-  
-  <div class="parallax" style="text-align: center;"><h1></h1></div>
-<div class="parallax2" style="text-align: center;"><h1></h1></div>
-<div class="parallax3" style="text-align: center;"><h1></h1></div>
-<div class="parallax" style="text-align: center;"><h1></h1></div>
-<div class="parallax" style="text-align: center;"><h1></h1></div>
-</body>
-
+      <div class="parallax3" style="text-align: center;">
+         <h1>Pikmin</h1>
+      </div>
+      <div class="parallax4" style="text-align: center;">
+         <h1>Legend Of Zelda Ocarina of Time</h1>
+      </div>
+      <div class="parallax5" style="text-align: center;">
+         <h1>Mario</h1>
+      </div>
+      <div class="parallax6" style="text-align: center;">
+         <h1>Legend Of Zelda Majoras Mask</h1>
+      </div>
+      <div class="parallax7" style="text-align: center;">
+         <h1>Super Mario Galaxy</h1>
+      </div>
+      <div class="parallax8" style="text-align: center;">
+         <h1>Super mario 3d</h1>
+      </div>
+      <div class="parallax9" style="text-align: center;">
+         <h1>Super Mario maker</h1>
+      </div>
+      <div class="parallax10" style="text-align: center;">
+         <h1>F-Zero</h1>
+      </div>
+      <div class="parallax11" style="text-align: center;">
+         <h1>Luigi's Mansion</h1>
+      </div>
+      <div class="parallax12" style="text-align: center;">
+         <h1>Mario Kart</h1>
+      </div>
+      <footer><br>Created by Rahul M.</br><br>Contact: rmisra019@gmail.com</br><br>Address: Lexington, 772 Earnhardt Drive</br></footer>
+   </body>
 </html>
