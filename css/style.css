@@ -1,14 +1,14 @@
- h1{
-  margin: 30px;
-  background-color: white;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  
-  }
-  footer{
-padding: 1em;
-    color: white;
-    background-color: black;
-    clear: left;
-    text-align: center;
-  }
+ h1 {
+     margin: 30px;
+     background-color: white;
+     opacity: 0.6;
+     filter: alpha(opacity=60);
+     /* For IE8 and earlier */
+ }
+ footer {
+     padding: 1em;
+     color: white;
+     background-color: black;
+     clear: left;
+     text-align: center;
+ }
